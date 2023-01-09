@@ -4,8 +4,6 @@ $color-style: #fed136;
 $color-text: #808080;
 $max-w: 767px;
 
-/* Global */
-
 *,
 *::before,
 *::after {
@@ -193,13 +191,13 @@ h2 {
       max-width: 290px;
     }
   }
+}
 
-  .services-inner {
-    @include flex-inner;
+.services-inner {
+  @include flex-inner;
 
-    li {
-      margin: auto;
-    }
+  li {
+    margin: auto;
   }
 
   i {
@@ -233,6 +231,7 @@ h6 {
 
   li {
     margin: auto auto 50px auto;
+    background-color: $color-white;
   }
 
   p {
